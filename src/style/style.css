@@ -1,0 +1,102 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px 0 40px;
+    border-bottom: #383d47 solid 1px;
+
+}
+nav h1{
+    color:#ffb434;
+    font-weight: 900;
+    font-size: 1.9em;
+}
+#list{
+    display: flex;
+    padding:5px 200px 0 0 ;
+}
+#list li{
+    list-style: none;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+#list li a{
+    text-decoration: none;
+   font-weight: 600;
+    font-size: 1.2em;
+    color:white;
+    
+}
+#search{
+    padding-top: 28px;
+}
+#search input{
+    padding: 10px;
+    border-radius: 22px;
+    background-color:white;
+    border: none; 
+}
+#card{
+    width: 21%;
+    border:#3a3f49 solid 1px;
+    color: whitesmoke;
+    justify-content: center;
+    box-shadow: 1px 2px 3px #1d2025;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 40px 100px 80px;
+    gap: 50px;
+
+}
+.add{
+    background-color:rgba(40, 44, 52, 0.9);
+    width: 100vw;
+    height:100vw ;
+    position:fixed;
+    text-align: center;
+    top:0;
+    left:0;
+}
+#close{
+    position: absolute;
+    top:50px;
+    right:80px ;
+    color: antiquewhite;
+    font-size: 1.5em;
+    border: none;
+    background: none;
+}
+button{
+    cursor: pointer;
+}
+.form{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background: none;
+    margin-left: 34vw;
+}
+.add h1{
+    padding: 50px;
+    color:#ffb434;
+    background: none;
+}
+.form input{
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+
+}
+.form button{
+    width:100px;
+    padding: 10px;
+    background-color: #ffb434;
+    border-radius: 25px;
+    border: none;
+    margin-left: 11vw;
+    color:#383d47;
+    font-weight: 800;
+}
