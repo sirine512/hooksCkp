@@ -1,7 +1,8 @@
+/*navbar*/
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 0 60px 0 40px;
+    padding: 0 80px 0 40px;
     border-bottom: #383d47 solid 1px;
 
 }
@@ -10,16 +11,14 @@ nav h1{
     font-weight: 900;
     font-size: 1.9em;
 }
-#list{
-    display: flex;
-    padding:5px 200px 0 0 ;
+#list{ 
+    padding-top:33px ;
+
+    
 }
-#list li{
-    list-style: none;
+#comp{
     margin-right: 80px;
-    margin-top: 10px;
-}
-#list li a{
+    margin-top: 20px;
     text-decoration: none;
    font-weight: 600;
     font-size: 1.2em;
@@ -28,27 +27,42 @@ nav h1{
 }
 #search{
     padding-top: 28px;
+    width: 15vw;
 }
 #search input{
     padding: 10px;
     border-radius: 22px;
     background-color:white;
     border: none; 
+    width: 100%;
 }
-#card{
-    width: 21%;
+/*movielist*/
+#card, #addBtn{
+    height:26vw;
     border:#3a3f49 solid 1px;
     color: whitesmoke;
     justify-content: center;
     box-shadow: 1px 2px 3px #1d2025;
 }
-.cards{
+#addBtn{
+    width: 16.65%;
+}
+#linkCard{
+    width: 16.65%;
+}
+.cards,.cardsH{
     display: flex;
-    flex-wrap: wrap;
-    padding: 50px 40px 100px 80px;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    padding: 50px 70px 100px 70px;
     gap: 50px;
 
 }
+#page{
+    color:whitesmoke;
+    margin:30px 0 0 50px;
+}
+/*add*/
 .add{
     background-color:rgba(40, 44, 52, 0.9);
     width: 100vw;
@@ -99,4 +113,68 @@ button{
     margin-left: 11vw;
     color:#383d47;
     font-weight: 800;
+}
+/*details**/
+.details{
+    position:absolute;
+    color:whitesmoke;
+    top: 14.2%;
+    width: 96.2%;
+    height: 36.1vw;
+    background-color:rgba(0, 0, 0, 0.3) ;
+    display: flex;
+    padding: 80px 0 0 50px ;
+}
+.descrip, .descripHome{
+    background: none;
+    padding-left: 50px;
+    width: 50%;
+    color:whitesmoke;
+}
+h1,p,img{
+    background: none
+}
+#trailer{
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: 700;
+    border-radius: 15px;
+    color: antiquewhite;
+    border: none;
+    background-color: #eba01e;
+    margin:10px;
+}
+.show-trailer{
+    width: 100vw;
+    height: 100vw;
+    right: 0;
+    top: 0;
+    position: fixed;
+    background-color: rgba(40, 44, 52, 0.8) ;
+    text-align: center;
+    padding-top: 150px;
+}
+#video{
+   border: none;
+}
+#not{
+    text-align: center;
+    font-size: 3.5em;
+    color: antiquewhite;
+    margin-top: 10vw;
+}
+/*home*/
+.cardHome{
+    position: absolute;
+    margin-top: 10px;
+}
+.descripHome{
+    position:absolute;
+    top: 0;
+    background-color:  rgba(0, 0, 0, 0.3) ;
+    height: 86%;
+    width: 87.8%;
+    padding-top: 50px;
+    padding-right: 50px;
+    
 }
